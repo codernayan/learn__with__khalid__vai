@@ -102,10 +102,13 @@ a {
 
         a {
           padding: 17px 33px;
-          background: rgb(3, 104, 235);
+          background: linear-gradient(to left, #0847f5, #538ffd);
           color: #fff;
           font-weight: 600;
-          border: 2px solid rgb(3, 104, 235);
+          border-width: 3px;
+          border-style: solid;
+          border-image-source: linear-gradient(to left, #0847f5, #387cfa);
+          border-image-slice: 1;
           font-size: 14px;
           text-transform: uppercase;
           cursor: pointer;
